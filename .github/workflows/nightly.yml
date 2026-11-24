@@ -22,7 +22,7 @@ jobs:
       actions: read
       attestations: write
       id-token: write
-    uses: storytold/craft-common-actions/.github/workflows/nightly-unsigned.yml@a4f6fd51e854773de8b24b4f92e1ad7e770c08d7
+    uses: storytold/craft-common-actions/.github/workflows/nightly-unsigned.yml@778230c1a2cf245cdde9436d759f1c552f7f1d50
     with:
       tooling-revision: a4f6fd51e854773de8b24b4f92e1ad7e770c08d7
       app-name: photocraft
